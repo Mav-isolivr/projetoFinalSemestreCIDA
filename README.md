@@ -12,6 +12,7 @@ Cenário de uma floricultura. O vendedor atende o cliente e registra o pedido. O
 | --- | --- |
 | [docs/modelo_de_requisitos.md](docs/modelo_de_requisitos.md) | Levantamento e análise de requisitos |
 | [docs/modelo_conceitual.md](docs/modelo_conceitual.md) | Diagrama entidade-relacionamento |
+| [docs/diagrama_mer.png](docs/diagrama_mer.png) | Foto do diagrama entidade-relacionamento |
 | [docs/modelo_logico.md](docs/modelo_logico.md) | Esquema relacional |
 | [script_ddl.sql](script_ddl.sql) | Criação das tabelas, restrições e gatilhos |
 | [script_dml.sql](script_dml.sql) | Carga de dados do cenário |

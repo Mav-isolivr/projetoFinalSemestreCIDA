@@ -16,7 +16,7 @@ Notação: a chave primária está marcada com PK. A chave estrangeira aparece c
 
 **Turno** (id PK, dia, horas, periodo)
 
-- dia entre 1 e 7
+- dia entre 1 e 6
 - horas maior que zero
 - periodo CHECK (`manhã`, `tarde`, `noite`)
 

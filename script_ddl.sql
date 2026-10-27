@@ -22,7 +22,7 @@ CREATE TABLE pessoa (
 
 CREATE TABLE turno (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  dia INTEGER NOT NULL CHECK (dia BETWEEN 1 AND 7),
+  dia INTEGER NOT NULL CHECK (dia BETWEEN 1 AND 6),
   horas INTEGER NOT NULL CHECK (horas > 0),
   periodo TEXT NOT NULL CHECK (periodo IN ('manhã', 'tarde', 'noite'))
 );

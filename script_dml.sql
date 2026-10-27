@@ -41,7 +41,7 @@ INSERT INTO turno (dia, horas, periodo) VALUES
   (5, 8, 'manhã'),
   (5, 8, 'tarde'),
   (6, 4, 'tarde'),
-  (7, 4, 'manhã');
+  (6, 4, 'manhã');
 
 INSERT INTO cliente (id_pessoa) VALUES
   (13),

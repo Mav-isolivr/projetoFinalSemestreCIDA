@@ -25,7 +25,7 @@ A entrega pode ser comum ou surpresa. Na surpresa, o destinatário não fica sab
 
 - **Pessoa:** identificação comum de clientes e funcionários (nome, documentos e contato).
 - **Cliente, Vendedor, Entregador e Jardineiro:** papéis especializados de pessoa. O vendedor tem status ativo ou inativo.
-- **Turno:** dia, carga horária e período da escala.
+- **Turno:** dia (de 1 a 6), carga horária e período da escala.
 - **Estoque:** local de armazenamento sob responsabilidade de um jardineiro, com a quantidade de sementes.
 - **Tipo de flor:** espécie, cor, tamanho, preço de catálogo não se aplica aqui; o catálogo traz nome, cor, tamanho e quantidade disponível.
 - **Ornamento:** item decorativo (cor, tamanho, fitas e indicação de poda) ligado a uma flor e a um estoque, com quantidade própria.
@@ -73,6 +73,7 @@ A entrega pode ser comum ou surpresa. Na surpresa, o destinatário não fica sab
 ## 6. Requisitos de dados
 
 - CPF único. Data de nascimento, telefone e endereço guardados como texto.
+- Dia do turno de 1 a 6.
 - Status do pedido: aberto, em preparo, entregue ou cancelado.
 - Modalidade do pedido: retirada, entrega ou surpresa.
 - Status do vendedor: ativo ou inativo, com ativo como padrão.

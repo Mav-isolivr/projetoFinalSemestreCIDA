@@ -5,7 +5,9 @@
 **Aluna:** Maria Vithória de Oliveira  
 **Cenário:** floricultura
 
-O diagrama abaixo é o modelo entidade-relacionamento do cenário. A leitura da cardinalidade fica ao lado de cada entidade: o traço duplo é exatamente um, o círculo é opcional, e o pé de galinha é vários.
+![Diagrama entidade-relacionamento da floricultura](diagrama_mer.png)
+
+O diagrama em texto abaixo acompanha o esquema implementado nos scripts. A leitura da cardinalidade fica ao lado de cada entidade: o traço duplo é exatamente um, o círculo é opcional, e o pé de galinha é vários.
 
 ```mermaid
 erDiagram
@@ -52,7 +54,7 @@ erDiagram
 - **Vendedor:** ligação com a pessoa, turno e status (ativo ou inativo).
 - **Entregador:** ligação com a pessoa e turno.
 - **Jardineiro:** ligação com a pessoa e turno.
-- **Turno:** dia, horas e período.
+- **Turno:** dia (de 1 a 6), horas e período.
 - **Estoque:** quantidade de sementes e jardineiro responsável.
 - **Tipo de flor:** nome, cor, tamanho, quantidade e estoque.
 - **Ornamento:** cor, tamanho, fitas, poda, quantidade, estoque e flor a que pertence.

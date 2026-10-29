@@ -5,7 +5,7 @@
 **Aluna:** Maria Vithória de Oliveira  
 **Cenário:** floricultura
 
-![Diagrama entidade-relacionamento da floricultura](diagrama_mer.png)
+[Diagrama entidade-relacionamento da floricultura](diagrama_mer.pdf)
 
 O diagrama em texto abaixo acompanha o esquema implementado nos scripts. A leitura da cardinalidade fica ao lado de cada entidade: o traço duplo é exatamente um, o círculo é opcional, e o pé de galinha é vários.
 
